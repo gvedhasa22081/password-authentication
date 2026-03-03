@@ -1,1 +1,32 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Policy Compliance Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>🔐 Password Compliance Checker</h1>
+</nav>
+
+<section class="container">
+    <div class="card">
+        <h2>Check Your Password Security</h2>
+
+        <input type="password" id="password" placeholder="Enter your password">
+        <button onclick="checkPassword()">Check Compliance</button>
+
+        <div class="strength-bar">
+            <div id="strength"></div>
+        </div>
+
+        <div id="results"></div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
